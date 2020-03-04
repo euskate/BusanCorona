@@ -27,9 +27,10 @@ SECRET_KEY = 'r6u+l#88-ww4&hkuxf2a+5@63t1brxs!n))llox#ofvmc+cxu@'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '*',
+    # '*',
     'localhost',
-    'ec2-54-180-90-44.ap-northeast-2.compute.amazonaws.com',
+    '.ap-northeast-2.compute.amazonaws.com',
+    '.busancorona.ga',
 ]
 
 
