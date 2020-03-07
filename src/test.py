@@ -19,7 +19,7 @@ with open('./Busan_gu.json',mode='rt',encoding='utf-8') as k:
 gu_info=pd.read_csv('./Gucheong_info(20_03_06).csv')
 
 # 확진자 데이터 불러오기
-definite=pd.read_csv('./patient_info(20_03_06).csv')
+definite=pd.read_csv('./my_csv.csv')
 
 #----------------------------------------------------------------------------------------------
 
