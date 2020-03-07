@@ -21,10 +21,8 @@ from . import views, settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.HomeView.as_view(), name='home'),
-    path('test/', views.test, name='test')
+    path('menu1/', views.menu1, name='menu1'),
+    path('menu2/', views.menu2, name='menu2'),
+    path('menu3/', views.menu3, name='menu3'),
+    path('menu4/', views.menu4, name='menu4'),
 ]
-
-# urlpatterns += static(
-#     settings.MEDIA_URL,
-#     document_root=settings.MEDIA_ROOT
-# )
